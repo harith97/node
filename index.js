@@ -15,7 +15,7 @@ app.get('/pinetools', function(req, res) {
     // Inject custom CSS or JS
     const modified = body.replace(
       '</head>',
-      `<style>body { background: black !important; }</style><script>alert('Injected!');</script></head>`
+      `<style>body { background: black !important; #header{    display: none; } }</style><script></script></head>`
     );
     res.send(modified);
   });
