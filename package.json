@@ -1,0 +1,8 @@
+{
+  "name": "node-hello-world",
+  "module": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
